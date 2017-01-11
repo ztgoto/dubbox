@@ -1,3 +1,9 @@
+## dubbox-2.8.4.1
+该版本主要基于dubbox-2.8.4修改，修改内容如下:
+1. 将dubbo-remoting-netty模块升级为netty4.x版本接口(默认使用4.1.5.Final版本，性能稳定性有待测试)
+
+-----------------------------------------------------------------------
+
 Dubbox now means Dubbo eXtensions. If you know java, javax and dubbo, you know what dubbox is :)
 
 Dubbox adds features like RESTful remoting, Kyro/FST serialization, etc to the popular [dubbo service framework](http://github.com/alibaba/dubbo). It's been used by several projects of [dangdang.com](http://www.dangdang.com), which is one of the major e-commerce companies in China.
@@ -10,7 +16,7 @@ Dubbox adds features like RESTful remoting, Kyro/FST serialization, etc to the p
 * Dylan 独立开发者 dinguangx@163.com
 * Kangfoo 独立开发者
 
-有技术问题请移步此处讨论 https://github.com/dangdangdotcom/dubbox/issues
+**讨论QQ群**：258792161  （不限于dubbox，包括SOA设计、互联网技术等等兴趣交流）
 
 ## Dubbox当前的主要功能
 
@@ -46,7 +52,7 @@ Dubbox adds features like RESTful remoting, Kyro/FST serialization, etc to the p
 
 [Demo应用简单运行指南](http://dangdangdotcom.github.io/dubbox/demo.html)
 
-[Dubbox@InfoQ](http://www.infoq.com/cn/news/2014/10/dubbox-open-source) 
+[Dubbox@InfoQ](http://www.infoq.com/cn/news/2014/10/dubbox-open-source)
 
 [Dubbox Wiki](https://github.com/dangdangdotcom/dubbox/wiki) （由社区志愿者自由编辑的）
 
@@ -174,7 +180,7 @@ Dubbox adds features like RESTful remoting, Kyro/FST serialization, etc to the p
     <version>2.3.3</version>
 </dependency>
 ```
-   
+
 ## FAQ（暂存）
 
 ### Dubbox需要什么版本的JDK？
