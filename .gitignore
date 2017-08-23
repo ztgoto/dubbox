@@ -31,3 +31,5 @@ target/
 .DS_Store
 Thumbs.db
 
+/spring-boot-starter-dubbo/.apt_generated
+/spring-boot-starter-dubbo/.factorypath

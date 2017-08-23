@@ -35,7 +35,6 @@ public class DubboAutoConfiguration {
     
     @Bean
     @ConditionalOnMissingBean
-    @ConditionalOnProperty(name = "dubbo.module")
     public ModuleConfig moduleConfig(){
     	return properties.getModule();
     }
@@ -48,6 +47,7 @@ public class DubboAutoConfiguration {
     
     @Bean
     @ConditionalOnMissingBean
+    @ConditionalOnProperty(name = "dubbo.monitor.enabled")
     public MonitorConfig monitorConfig() {
     	return properties.getMonitor();
     }
