@@ -35,6 +35,7 @@ public class DubboAutoConfiguration {
     
     @Bean
     @ConditionalOnMissingBean
+    @ConditionalOnProperty(name = "dubbo.module.enabled")
     public ModuleConfig moduleConfig(){
     	return properties.getModule();
     }
